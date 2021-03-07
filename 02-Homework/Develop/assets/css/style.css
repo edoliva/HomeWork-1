@@ -147,6 +147,7 @@ into one section since all the styling was the same */
     max-width: 150px;
 }
 
+/* removed the .footer class and used the attribute instead */    
 footer {
     padding: 30px;
     clear: both;
