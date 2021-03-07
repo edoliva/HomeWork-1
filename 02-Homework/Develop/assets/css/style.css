@@ -16,14 +16,14 @@ body {
     background-color: var(--grey);
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:  var(--lightBlue);
     color: var(--white);
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -34,7 +34,8 @@ nested in additional classes */
     color: var(--grey);
 }
 
-.header div {
+/* div updated to nav on below 3 blocks */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -42,11 +43,11 @@ nested in additional classes */
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -86,10 +87,12 @@ p {
 }
 
 /* 
-1. moved the .content styling above the .benefits styling because it is above it in the index.html file
+1. moved the .content styling above the .benefits styling because it is above 
+it in the index.html file
 2. combined the attributes of .search-engine-optimization, .online-reputation-management, and 
-.social-media-marketing into one section since all the styling was the same */
-.content div {
+.social-media-marketing into one section since all the styling was the same
+3. updated div to section for semantic purposes */
+.content section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,13 +147,13 @@ into one section since all the styling was the same */
     max-width: 150px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
